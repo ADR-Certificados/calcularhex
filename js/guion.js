@@ -20,7 +20,7 @@ function compruebaNumero() {
     if (numero && /^[0-9a-fA-F]+$/.test(numero)) {
         $("#alertas, #resultado").css("display", "none");
         $("#resultado").css("text-shadow", "")
-        $("#alertas").html("<img src='img/correcto.png' width='64'><div><h3>El número decimal resultante es:</h3></div>");
+        $("#alertas").html("<img src='img/correcto.png' width='64'><div><h3>El número decimal resultante es... :<br>(*redoble de tambor*)</h3></div>");
         $("#alertas").slideDown(3000, function(){
             $("#resultado").html("<h2>" + parseInt(numero, 16) + "</h2>");
             $("#resultado").show(2000);
