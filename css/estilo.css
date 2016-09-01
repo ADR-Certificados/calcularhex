@@ -2,7 +2,7 @@ body {
     width: 22em;
     margin: 0 auto;
     padding: 1em;
-    background-color: #a7b1ba;
+    background-color: orange;
 }
 #alertas {
     display: none;
