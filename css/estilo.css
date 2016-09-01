@@ -1,0 +1,87 @@
+body {
+    width: 22em;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #a7b1ba;
+}
+#alertas {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+}
+#alertas img {
+    margin: 0;
+}
+#alertas div {
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+#resultado {
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2em;
+    color: antiquewhite;
+}
+form {
+    width: 100%;
+    margin: 3em auto;
+}
+fieldset {
+    clear: both;
+    border: 0;
+}
+form fieldset:first-child {
+    border-radius: .7em;
+    background-color: lightgray;
+    padding-bottom: 1em;
+    box-shadow: -2px 2px 5px grey;
+}
+label {
+    margin-left: 1em;
+    float: left;
+    text-shadow: -1px 1px 0 white;
+}
+input {
+    margin-right: 1em;
+    float: right;
+    text-align: right;
+}
+input:valid {
+    background-color: lightgreen;
+}
+input:invalid {
+    background-color: lightcoral;
+}
+legend {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: red;
+    text-shadow: -1px 1px 2px darkslategrey;
+}
+button {
+    width: 4em;
+    height: 1.2em;
+    background-color: darkslategrey;
+    border: 0;
+    border-radius: .3em;
+    font-size: 1.2em;
+    margin-top: .5em;
+    float: right;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: -2px 2px 5px grey;
+}
+button:hover {
+    background-color: darkgray;
+}
+button:active {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    box-shadow: -2px 2px 2px grey inset;
+}
+
+

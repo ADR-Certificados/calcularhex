@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="application-name" content="Ejercicio de evaluación Módulo MF0951_2">
+    <meta name="author" content="Pedro Pablo Gonzalo">
+    <meta name="description" content="Formulario número hexadecimal">
+    <meta name="generator" content="Brakets jQuery3.0.0">
+    <title>Integracion de componentes en paginas web</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <script src="js/jquery-3.0.0.min.js" type="text/javascript"></script>
+    <script src="js/guion.js" type="text/javascript"></script>
+</head>
+
+<!--
+Ejercicio de evaluación de la unidad UF1306 consistente en un formulario para introducir un número hexadecimal.
+Dicho número será verificado y recalculado en base decimal mediante javascript (jQuery).
+Fecha de realización : 27 de julio de 2016
+Autor: Pedro Pablo Gonzalo
+-->
+
+
+<body>
+    <form action="#" method="get" target="_blank" onsubmit="return compruebaNumero()" name="formulario" id="formulario">
+        <fieldset title="Introduzca un número en formato hexadecimal">
+            <legend>Este dato es obligatorio</legend>
+            <label for="numero">Nº Hexadecimal</label>
+            <input type="text" id="numero" name="numero" required autofocus tabindex="1"> <!-- pattern="^[0-9a-fA-F]+$" -->
+        </fieldset>
+        <button type="submit" tabindex="2" title="Pulse aquí para comprobar y calcular el número" id="envio">Enviar</button>
+        <fieldset id="alertas"></fieldset>
+        <fieldset id="resultado"></fieldset>
+    </form>
+</body>
+</html>
